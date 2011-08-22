@@ -1,0 +1,38 @@
+
+# R_CXXFLAGS= $(ALL_CPPFLAGS) $(ALL_CXXFLAGS) -I . -Wall -pedantic 
+# R_CFLAGS= $(ALL_CPPFLAGS) $(ALL_CFLAGS) -I . -Wall -pedantic
+
+R_CXXFLAGS= $(ALL_CPPFLAGS) $(ALL_CXXFLAGS) -I .  
+R_CFLAGS= $(ALL_CPPFLAGS) $(ALL_CFLAGS) -I . -Wall 
+
+all : $(SHLIB)
+
+heap.o : heap.cpp  heap.h
+	$(CXX) $(R_CXXFLAGS) -c heap.cpp
+
+motif-search.o : motif-search.cpp  motif-search.h
+	$(CXX) $(R_CXXFLAGS) -c motif-search.cpp
+
+motif-tree.o : motif-tree.cpp motif-tree.h
+	$(CXX) $(R_CXXFLAGS) -c motif-tree.cpp
+
+graphical-models.o : graphical-models.cpp graphical-models.h
+	$(CXX) $(R_CXXFLAGS) -c graphical-models.cpp
+
+combinatorics.o : combinatorics.cpp combinatorics.h
+	$(CXX) $(R_CXXFLAGS) -c combinatorics.cpp
+
+nr-permutation.o : nr-permutation.cpp nr-permutation.h
+	$(CXX) $(R_CXXFLAGS) -c nr-permutation.cpp
+
+shrink.o : shrink.cpp  shrink.h
+	$(CXX) $(R_CXXFLAGS) -c shrink.cpp
+
+util.o : util.cpp util.h
+	$(CXX) $(R_CXXFLAGS) -c util.cpp
+
+interface_R_cpp.o : interface_R_cpp.cpp
+	$(CXX) $(R_CXXFLAGS) -c interface_R_cpp.cpp
+
+vertex_layout.o : vertex_layout.c
+	$(CC) $(R_CFLAGS) -DDEF_BIT -c vertex_layout.c

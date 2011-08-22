@@ -1,0 +1,14 @@
+export("computePValue")
+export("countMotif")
+export("EDD")
+export("MixNet")
+export("getExceptMotif")
+export("getGraph")
+export("getMotifMoment")
+
+# S3method(print, paloma.occurrences)
+# S3method(print, paloma.exceptional)
+# S3method(plot, paloma.exceptional)
+
+useDynLib(NeMo)
+
