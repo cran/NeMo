@@ -74,8 +74,8 @@ Recherche under grant NeMo ANR-08-BLAN-0304-01.
 
 \author{
 \itemize{
-    \item Stéphane Robin \email{Stephane.Robin@agroparistech.fr},
-    \item Etienne Birmelé \email{Etienne.Birmele@genopole.cnrs.fr},
+    \item Stephane Robin \email{Stephane.Robin@agroparistech.fr},
+    \item Etienne Birmele \email{Etienne.Birmele@genopole.cnrs.fr},
     \item Michel Koskas \email{Michel.Koskas@agroparistech.fr},
     \item Gilles Grasseau \email{Gilles.Grasseau@genopole.cnrs.fr},
     \item Sophie Schbath \email{Sophie.Schbath@jouy.inra.fr}.

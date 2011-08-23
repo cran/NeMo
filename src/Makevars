@@ -3,7 +3,7 @@
 # R_CFLAGS= $(ALL_CPPFLAGS) $(ALL_CFLAGS) -I . -Wall -pedantic
 
 R_CXXFLAGS= $(ALL_CPPFLAGS) $(ALL_CXXFLAGS) -I .  
-R_CFLAGS= $(ALL_CPPFLAGS) $(ALL_CFLAGS) -I . -Wall 
+R_CFLAGS= $(ALL_CPPFLAGS) $(ALL_CFLAGS) -I . 
 
 all : $(SHLIB)
 

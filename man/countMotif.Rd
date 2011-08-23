@@ -50,7 +50,7 @@ countMotif( graph, motif, directed = FALSE, verbose = FALSE)
   \item{motifs}{adjacency matrices list of the requested motifs.} 
   \item{counts}{occurrence numbers (vector) of the requested motifs.} 
 }
-\author{S. Robin, E. Birmelé, G. Grasseau, M. Koskas}
+\author{S. Robin, E. Birmele, G. Grasseau, M. Koskas}
 
 \section{Warning }{ Because the number of possible motifs increases
   exponentially, exploring all the motifs with \emph{motif size} greater

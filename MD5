@@ -1,6 +1,6 @@
-01d875f0bc272c04b860e67c82664a49 *DESCRIPTION
+67aeba114ce184d287272cae428e337f *DESCRIPTION
 9a42e82bfbdb6366f9b76ac82521b9d2 *NAMESPACE
-cfa2b250d576f6e556dbe2ff517e9628 *NEWS
+2c7e35e282bd85c05081036d43715ce1 *NEWS
 994617238d11af244cdabc81ebccb4bd *R/Gplot-internals.R
 e4bb6db7fa310dbbd4d82011c36f0106 *R/Gplot.R
 5b21cde4b3a04fcddaf88fc9dea697bf *R/NeMo.R
@@ -25,14 +25,14 @@ d446365aa519c9a9a65464ec73ab7429 *inst/networks/motif-u-7.db
 615f65d4a386ede750fd2d73fa575b8f *inst/networks/motif-u-8.db
 6b3eb4a0cbb9f87c94dea99a1938d6ea *man/EDD.Rd
 28df8e8ad035fb98d73879eb871a02e5 *man/MixNet.Rd
-0495196b406f6bfbcf9c79392282e43f *man/NeMo-package.Rd
+9e5bdcb9a97f3deefcd8bbd3cb901adc *man/NeMo-package.Rd
 c332e61914f0940bff0065a53c82f8dc *man/computePValue.Rd
-c17d314d0e2bb2da88ffe4a5784ba4a4 *man/countMotif.Rd
+419fc0ba87cfd6de3e3dd4df97c71ffb *man/countMotif.Rd
 e4d1c42fdbf37fbd22be6ce5ffd5fb60 *man/data-motif.list.Rd
-0ebb04e21f240f000a552a6ee8ff2264 *man/getExceptMotif.Rd
+f6071c08f75af1e5217a609042003208 *man/getExceptMotif.Rd
 64f3a65902d01ad1413793c1457cdcd4 *man/getGraph.Rd
 56722d26613521364deaf522de2d87dd *man/getMotifMoment.Rd
-b40c835d39da3ef31f1073a2fa7a8b32 *src/Makevars
+edb60dd3ae49bd86841c95faf217e444 *src/Makevars
 ed27d54bf18f63feffd5aa40da0ea2b3 *src/block-alloc.h
 83716877db10ebc2384cab59a9c2b94e *src/combinatorics.cpp
 ca3261d3b24648e6c90f610c3d33f112 *src/combinatorics.h
@@ -41,7 +41,7 @@ ca3261d3b24648e6c90f610c3d33f112 *src/combinatorics.h
 2c4a6527affb92965d3add2dd26f3bd0 *src/heap-union.h
 164fe02c559b3f9694f8d498e3f0ee37 *src/heap.cpp
 781c6dd33e81a969377ff2c2603fa93d *src/heap.h
-ff5d96b5515424515e6487df32f45958 *src/interface_R_cpp.cpp
+0c2174adc14b4263e0386850d38dcc33 *src/interface_R_cpp.cpp
 df446ee0b103f9f3bf43fb038176879c *src/motif-search.cpp
 c27f46b79d58875128f27546bc26a91d *src/motif-search.h
 61d909e774e85673c0c760f98b7819b4 *src/motif-tree.cpp

@@ -16,7 +16,8 @@ extern "C" {
 SEXP  setMotifPath_C(  SEXP S_path ) {
 
   PROTECT(S_path = AS_CHARACTER(S_path));
-  char *path = new char[ strlen(CHAR(STRING_ELT(S_path, 0))) ];
+  // Add null char (2 chars)
+  char *path = new char[ strlen(CHAR(STRING_ELT(S_path, 0))) + 2];
   strcpy(path, CHAR(STRING_ELT(S_path, 0)));
   
   setMotifDirectory( path );

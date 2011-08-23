@@ -143,7 +143,7 @@ getExceptMotif( graph, motif = NULL, directed = FALSE, model = "EDD",
     }
 }
 \author{
- S. Robin, E. Birmelé, M. Koskas, G. Grasseau, S. Schbath
+ S. Robin, E. Birmele, M. Koskas, G. Grasseau, S. Schbath
 }
 
 \seealso{
